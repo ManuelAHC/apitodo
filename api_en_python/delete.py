@@ -24,7 +24,7 @@ class Task(db.Model):
 def create_tables():
     db.create_all()
 
-@app.route('/api/delete', methods=['DELETE'])
+@app.route('/api_en_python/delete', methods=['DELETE'])
 def delete_task():
     data = request.get_json()
 

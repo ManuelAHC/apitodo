@@ -24,7 +24,7 @@ class Task(db.Model):
 def create_tables():
     db.create_all()
 
-@app.route('/api/update', methods=['PUT'])
+@app.route('/api_en_python/update', methods=['PUT'])
 def update_task():
     data = request.get_json()
 

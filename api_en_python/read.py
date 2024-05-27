@@ -24,7 +24,7 @@ class Task(db.Model):
 def create_tables():
     db.create_all()
 
-@app.route('/api/read', methods=['GET'])
+@app.route('/api_en_python/read', methods=['GET'])
 def read_tasks():
     tasks = Task.query.all()
     tasks_list = []

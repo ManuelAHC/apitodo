@@ -1,7 +1,7 @@
 from app import app, db, Task
 from flask import request, jsonify
 
-@app.route('/api/create', methods=['POST'])
+@app.route('/api_en_python/create', methods=['POST'])
 def create_task():
     data = request.get_json()
 
