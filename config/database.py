@@ -8,9 +8,9 @@ Base = declarative_base()
 class Database:
     def __init__(self):
         self.host = "localhost"
-        self.db_name = "todo_app"
-        self.username = "root"
-        self.password = ""
+        self.db_name = "id21930606_bdapitodo"
+        self.username = "id21930606_apitodo"
+        self.password = "Programacion3."
         self.engine = None
         self.Session = None
 
