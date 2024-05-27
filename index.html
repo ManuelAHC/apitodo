@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="titulo">TO DO</h1>
+        </div>
+        <input type="text" id="input-tarea" class="input-tarea" placeholder="Nueva tarea">
+        <textarea id="input-descripcion" class="input-descripcion" placeholder="Descripción de la tarea" style="display: none;"></textarea>
+        <button id="boton-agregar" class="boton-agregar">Agregar Tarea</button>
+        <h2>Tareas Pendientes</h2>
+        <ul id="lista-tareas-pendientes" class="lista-tareas"></ul>
+        <h2>Tareas Completadas</h2>
+        <ul id="lista-tareas-completadas" class="lista-tareas"></ul>
+        <button id="boton-actualizar" class="boton-limpiar">Actualizar Tareas</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
